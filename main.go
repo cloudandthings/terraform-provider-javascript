@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/apparentlymart/terraform-provider-javascript/internal/provider"
 	tfsdk "github.com/apparentlymart/terraform-sdk"
+	"github.com/cloudandthings/terraform-provider-javascript/internal/provider"
 )
 
 func main() {
