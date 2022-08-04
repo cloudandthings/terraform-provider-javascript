@@ -77,7 +77,7 @@ func javascriptDataResourceType() tfsdk.DataResourceType {
 			}
 
 			js := goja.New()
-			installUnderscore(js)
+			installLodash(js)
 
 			if !obj.Vars.IsNull() {
 				vars := obj.Vars.AsValueMap()
