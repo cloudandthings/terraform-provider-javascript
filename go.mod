@@ -1,4 +1,4 @@
-module github.com/cloudandthings/terraform-provider-javascript
+module github.com/lewispeckover/terraform-provider-javascript
 
 go 1.18
 
