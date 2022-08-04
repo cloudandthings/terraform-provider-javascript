@@ -38,7 +38,7 @@ terraform {
 
       # Until this provider has a stable release, always select an exact
       # version to avoid adopting new releases that may have breaking changes.
-      version = "0.0.3"
+      version = "0.0.4"
     }
   }
 }
