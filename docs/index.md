@@ -10,8 +10,8 @@ to express the algorithm as a small JavaScript program rather than as
 one or more Terraform language expressions.
 
 This provider supports ECMAScript 5.1 and, due to the intended use for
-wrangling data structures, [Underscore.js](https://underscorejs.org/)
-1.10.2 is automatically available to enable concise programming in functional
+wrangling data structures, [Lodash](https://lodash.com/)
+4.17.21 is automatically available to enable concise programming in functional
 style.
 
 When considering use of this provider, keep the following advice in mind:
@@ -34,11 +34,11 @@ it as a required provider inside your `terraform` block:
 terraform {
   required_providers {
     javascript = {
-      source = "apparentlymart/javascript"
+      source = "lewispeckover/javascript"
 
       # Until this provider has a stable release, always select an exact
       # version to avoid adopting new releases that may have breaking changes.
-      version = "0.0.1"
+      version = "0.0.5"
     }
   }
 }
